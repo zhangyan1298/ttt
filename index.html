@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI 技术前沿信息网</title>
+    <meta name="description" content="聚合 AI 前沿趋势、研究动态、产业落地与治理安全的中文信息门户。" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="主导航">
+        <a class="brand" href="#top" aria-label="AI 技术前沿信息网首页">AI Frontier</a>
+        <div class="nav-links">
+          <a href="#trends">趋势</a>
+          <a href="#research">研究</a>
+          <a href="#industry">产业</a>
+          <a href="#governance">治理</a>
+        </div>
+      </nav>
+      <section id="top" class="hero">
+        <p class="eyebrow">2026 · 智能体、多模态、具身智能</p>
+        <h1>AI 技术前沿信息网</h1>
+        <p class="hero-copy">用清晰的中文摘要、可信来源与可执行观察，追踪人工智能从模型能力到产业应用的关键变化。</p>
+        <form class="search-panel" role="search">
+          <label for="topic-search">搜索 AI 前沿主题</label>
+          <div>
+            <input id="topic-search" type="search" placeholder="例如：Agentic AI、SWE-bench、多模态推理" />
+            <button type="submit">订阅快讯</button>
+          </div>
+        </form>
+      </section>
+    </header>
+
+    <main>
+      <section class="section" aria-labelledby="stats-title">
+        <h2 id="stats-title">今日观察</h2>
+        <div class="stats-grid">
+          <article><strong>90%+</strong><span>2025 年重要前沿模型主要由产业界发布</span></article>
+          <article><strong>88%</strong><span>组织已在不同层面采用 AI</span></article>
+          <article><strong>近 100%</strong><span>关键编码基准一年内快速接近满分</span></article>
+        </div>
+      </section>
+
+      <section id="trends" class="section cards" aria-labelledby="trends-title">
+        <div class="section-heading">
+          <p class="eyebrow">Frontier Signals</p>
+          <h2 id="trends-title">前沿趋势雷达</h2>
+        </div>
+        <article class="feature-card accent-blue">
+          <span>01</span>
+          <h3>智能体进入长任务时代</h3>
+          <p>从单轮问答转向可规划、可调用工具、可持续执行的工作流，企业关注权限边界、沙箱隔离与可审计记录。</p>
+        </article>
+        <article class="feature-card accent-purple">
+          <span>02</span>
+          <h3>多模态推理成为默认能力</h3>
+          <p>文本、图像、语音、视频与结构化数据协同输入，推动医疗、教育、制造与创意生产场景重构。</p>
+        </article>
+        <article class="feature-card accent-green">
+          <span>03</span>
+          <h3>开放模型与私有部署并进</h3>
+          <p>开源权重、轻量蒸馏和本地化推理降低落地门槛，同时让评测、许可证与供应链安全更重要。</p>
+        </article>
+      </section>
+
+      <section id="research" class="section two-column" aria-labelledby="research-title">
+        <div>
+          <p class="eyebrow">Research Watch</p>
+          <h2 id="research-title">研究快讯</h2>
+          <p>持续关注模型评测、合成数据、长上下文、推理效率、AI for Science 与机器人基础模型等方向。</p>
+        </div>
+        <ul class="news-list">
+          <li><time datetime="2026-06-27">06/27</time><a href="#">前沿模型能力继续扩展，科学问答、数学与代码任务成为核心评测窗口</a></li>
+          <li><time datetime="2026-06-27">06/27</time><a href="#">智能体安全从提示词防护转向运行时监控、权限最小化与任务回放</a></li>
+          <li><time datetime="2026-06-27">06/27</time><a href="#">具身智能依赖仿真数据、世界模型与跨模态控制策略协同突破</a></li>
+        </ul>
+      </section>
+
+      <section id="industry" class="section dark-panel" aria-labelledby="industry-title">
+        <p class="eyebrow">Industry Map</p>
+        <h2 id="industry-title">产业落地版图</h2>
+        <div class="industry-grid">
+          <article><h3>软件研发</h3><p>AI 编程助手向需求拆解、代码生成、测试修复与文档维护扩展。</p></article>
+          <article><h3>企业知识</h3><p>RAG、知识图谱和流程智能体组合，提升检索、问答与业务自动化质量。</p></article>
+          <article><h3>AI 安全</h3><p>红队评测、数据治理、模型监控与内容溯源成为上线前后的基础设施。</p></article>
+          <article><h3>硬件算力</h3><p>高效推理芯片、边缘部署和绿色数据中心决定大规模应用成本。</p></article>
+        </div>
+      </section>
+
+      <section id="governance" class="section source-board" aria-labelledby="source-title">
+        <div>
+          <p class="eyebrow">Trusted Sources</p>
+          <h2 id="source-title">可信来源与治理清单</h2>
+          <p>每条快讯建议标注原始论文、官方报告或公司公告，并提供风险等级、应用成熟度与复核日期。</p>
+        </div>
+        <ol>
+          <li>核验论文 / 报告出处与发布日期</li>
+          <li>区分实验室指标、真实业务指标和营销声明</li>
+          <li>关注隐私、版权、偏见、网络安全与合规影响</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 AI 技术前沿信息网 · 让复杂 AI 进展更容易被理解</p>
+    </footer>
+  </body>
+</html>
